@@ -39,10 +39,10 @@
         </li>
 
         <li class="{{activeMenu('saludos2*')}}">
-          <a class="nav-link " href="{{route('saludos2', 'Alex')}}">Saludo</a>
+          <a class="nav-link " href="{{route('saludos2', 'Alex')}}">Saludos</a>
         </li>
         <li class="{{activeMenu('mensajes/create')}}">
-          <a class="nav-link " href="{{route('mensajes.create')}}">Contacto</a>
+          <a class="nav-link " href="{{route('mensajes.create')}}">Contactar</a>
         </li>
         @if(auth()->check())
         <li class="{{activeMenu('mensajes')}}">
